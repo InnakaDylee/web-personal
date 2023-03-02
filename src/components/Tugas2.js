@@ -22,6 +22,16 @@ import tgs2_19 from '../assets/img/19.png';
 import tgs2_20 from '../assets/img/20.png';
 import tgs2_21 from '../assets/img/21.png';
 import tgs2_22 from '../assets/img/22.png';
+import tgs2_23 from '../assets/img/23.png';
+import tgs2_24 from '../assets/img/24.png';
+import tgs2_25 from '../assets/img/25.png';
+import tgs2_26 from '../assets/img/26.png';
+import tgs2_27 from '../assets/img/27.png';
+import tgs2_28 from '../assets/img/28.png';
+import tgs2_29 from '../assets/img/29.png';
+import tgs2_30 from '../assets/img/30.png';
+import tgs2_31 from '../assets/img/31.png';
+
 import upLogo from '../assets/img/logo.svg';
 
 function Tugas2(){
@@ -172,6 +182,20 @@ function Tugas2(){
                 <p>We can also change the owner and group of a file or directory at the same time by using the following command:$ chown new_owner:new_group object</p>
                 <p>Here is an example of how to apply the command:</p>   
                 <img src={tgs2_21} className="tugas2-img" alt=''/>
+
+                <br></br>
+                <p><b>Exercise</b></p>
+                <p>In a job interview for a System Administrator position, you are asked to create two users that represent your identity (for example: user1=first name; user2=last name). On each of these users, create a directory named Ujian1 (user1) and Ujian2 (user2). Then, create 3 files with a size of 100 bytes simultaneously in the Ujian1 directory, and create 3 files with a size of 200 bytes simultaneously in the Ujian2 directory. Change the ownership of the Ujian1 directory to belong to User2 and vice versa. Then, set the access permissions of one file (freely chosen) so that it can only be read by the user and group owning the file, but cannot be read by other users.</p>
+                <p>Notes: Because user1 and Ujian2 already exist previously, So I chose to add user3 and ujian3 to the demo below.</p>
+                <img src={tgs2_23} className="tugas2-img" alt=''/>
+                <img src={tgs2_24} className="tugas2-img" alt=''/>
+                <img src={tgs2_25} className="tugas2-img" alt=''/>
+                <img src={tgs2_26} className="tugas2-img" alt=''/>
+                <img src={tgs2_27} className="tugas2-img" alt=''/>
+                <img src={tgs2_28} className="tugas2-img" alt=''/>
+                <img src={tgs2_29} className="tugas2-img" alt=''/>
+                <img src={tgs2_30} className="tugas2-img" alt=''/>
+                <img src={tgs2_31} className="tugas2-img" alt=''/>
 
             </body>
         </div>
