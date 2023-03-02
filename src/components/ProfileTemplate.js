@@ -15,7 +15,7 @@ export function ProfileTemplate() {
                 <img src={logo} className="profil-logo" alt="logo"/>
                     <div className="profil-desc">
                         <p className="profil-name">Innaka Dylee</p>
-                        <p className="profil-bio">Hi, mate! My name is Innaka Dylee. Currently, I am studying Software Engineering in college. As a student as well as a software engineer I would like to help readers by providing a step by step guide on how to install Ubuntu Server In VirtualBox. For more details, please see the review on the side.</p>
+                        <p className="profil-bio">Hi, mate! My name is Innaka Dylee. Currently, I am studying Software Engineering in college.</p>
                     </div>
                     <div className="button-profil">
                             <div ><button className="profil-button" onClick={() => navigate('./ContentUbuntu')}>Ubuntu Tutor</button></div>
