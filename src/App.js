@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './assets/style/style.css';
+// import './assets/style/tailwind.css';
+import ContentUbuntu from './Page/ContentUbuntu';
+import Profile from './Page/Profile';
+import ContentTugas2 from './Page/ContentTugas2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Content></Content>
+    // <Profile></Profile>
+    // <ContentTugas2></ContentTugas2>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path="/ContentUbuntu" element={<ContentUbuntu />} />
+          <Route path="/ContentTugas2" element={<ContentTugas2 />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 
