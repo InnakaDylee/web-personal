@@ -90,7 +90,16 @@ header {
     height: 26.7vmax;
     line-height: 3vh;
 }
-
+.ref{
+    text-align: justify;
+    font-size: 2vh;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+    line-height: 7vh;
+    text-align: justify;
+    text-shadow: 0 1px 16px rgba(8, 118, 140, 0.67)
+}
 .body p {
     text-align: justify;
     font-size: 2vh;

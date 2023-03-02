@@ -78,6 +78,8 @@ function Tugas2(){
                     </tr>
                 </table>
 
+                <a className='ref' href='https://www.tulisansamsul.com/2021/08/perbedaan-file-system-ntfs-fat-fat32-dan-exfat.html' target="blank">Difference between File systems NTFS and FAT</a>
+
                 <br></br>
                 <br></br>
                 <h3>3. Explain again the Tree-structured directory and acyclic-graph directory</h3>
@@ -150,13 +152,25 @@ function Tugas2(){
                 <p>3. Recursion on directory files</p>
                 <p>In the previous discussion of delete, we saw how to delete empty directories. now we will discuss how to delete a directory that still has files in it. Removing directories that still have files in them must be recursive</p>
                 <p>To perform recursive deletion of files, directories and subdirectories using command: $ rm -r directory (some cases need root access)</p>
+                <img src={tgs2_16} className="tugas2-img" alt=''/>
                 <br></br>
                 <p><b>Access Rights</b></p>
-                <img src={tgs2_16} className="tugas2-img" alt=''/>
+                <p>UNIX-Like OS supports multitasking and multiuser with remote access. This optimizes computer resources, especially in the early days when computers were expensive and centralized. Multiuser systems require mechanisms to regulate user rights to protect the system and data security. This involves permissions and file ownership.</p>
                 <img src={tgs2_17} className="tugas2-img" alt=''/>
+                <p>The output of the command "ls -l" gives results as shown in the image.</p>
+                <p>Related to access rights, sometimes we need to have access as a super-user to run commands that are only granted to admin privileges. The "su" command can give you temporary access to privileged permissions, and then you need to enter a password. Alternatively, you can use the "sudo" command to obtain super-user access for a specific command.</p>
                 <img src={tgs2_18} className="tugas2-img" alt=''/>
+                <br></br>
+                <p><b>Changing file or directory permissions</b></p>
+                <p>To change the permission of a file or directory, use the following command: $ chmod binary_permission_number file/directory</p>
                 <img src={tgs2_19} className="tugas2-img" alt=''/>
                 <img src={tgs2_20} className="tugas2-img" alt=''/>
+                <br></br>
+                <p><b>Changing File & Directory Ownership</b></p>
+                <p>To add a user, you need to gain access as a super-user, then type the command $ adduser username, and then fill in the requested data. By default, the owner of a filesystem object is the user account that created it. The group is a collection of users who have the same access permissions for a particular object. With the "chown" command, we can change the owner and group of a file or directory. To change the ownership of a user, type the command: $ chown new_owner object.</p>
+                <p>Meanwhile, to change the group, you can use the command: $chown :new_group object</p>
+                <p>We can also change the owner and group of a file or directory at the same time by using the following command:$ chown new_owner:new_group object</p>
+                <p>Here is an example of how to apply the command:</p>   
                 <img src={tgs2_21} className="tugas2-img" alt=''/>
 
             </body>
