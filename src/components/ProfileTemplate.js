@@ -20,7 +20,7 @@ export function ProfileTemplate() {
                     <div className="button-profil">
                             <div ><button className="profil-button" onClick={() => navigate('./ContentUbuntu')}>Ubuntu Tutor</button></div>
                             <br></br>
-                            <div ><button className="profil-button" onClick={() => navigate('./ContentTugas2')}>Latihan Tugas2</button></div>
+                            <div ><button className="profil-button" onClick={() => navigate('./ContentTugas2')}>Management File</button></div>
                     </div>
                     <img src={dec1} className="dec1" alt='dec1'/>
                     <img src={dec2} className="dec2" alt='dec2'/>
