@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track { 
+    background: rgb(28, 28, 44);
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #420772d5;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1c0033d5;
+}
+
 html {
     scroll-behavior: smooth;
     background-image: url("../img/bg-img.jpg");
@@ -28,7 +49,7 @@ html {
 }
 
 .App-name {
-    color: #727594;
+    color: #9393d0;
     font-size: 2.5vmax;
     font-weight: 500;
     text-shadow: 0 1px 20px rgba(132, 1, 132, 0.734);
@@ -37,7 +58,7 @@ html {
 }
 
 .App-bio {
-    color: #727594;
+    color: #9393d0;
     font-size: 1vmax;
     font-weight: 500;
     margin: 0 5vmax;
@@ -63,18 +84,18 @@ header {
 .body {
     margin-left: 30vmax;
     min-height: 100vmin;
-    width: 69vmax;
-    background-color: rgba(28, 28, 58, 0.656);
+    width: 70vmax;
+    background-color: rgba(28, 28, 58, 0.8);
     padding: 3vmax 4vmax;
     position: absolute;
-    color: #727594;
+    color: #9393d0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .link {
     margin-left: 4.5vh;
     line-height: 30px;
-    color: #727594;
+    color: #9393d0;
     text-shadow: 0 1px 16px rgba(8, 118, 140, 0.67)
 }
 
@@ -170,12 +191,12 @@ td {
     animation: App-logo-spin infinite 2s linear;
 }
 
-p2 {
+/* p2 {
     line-height: 150px;
     text-shadow: 0 1px 20px rgba(8, 118, 140, 0.752);
     margin-left: 22vmax;
     font-size: 2vmax;
-}
+} */
 
 @keyframes scale {
 
@@ -231,7 +252,7 @@ p2 {
 }
 
 .profil-name {
-    color: #727594;
+    color: #9393d0;
     font-size: 2.5vmax;
     font-weight: 500;
     text-shadow: 0 1px 20px rgba(132, 1, 132, 0.734);
@@ -240,7 +261,7 @@ p2 {
 }
 
 .profil-bio {
-    color: #727594;
+    color: #9393d0;
     font-size: 1vmax;
     font-weight: 500;
     margin: 0 5vmax;
@@ -251,13 +272,15 @@ p2 {
 
 .button-profil {
     position: relative;
-    margin: 80px auto;
+    margin: auto;
+    margin-top: 60px;
     width: 50vmax;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     column-gap: 4vmax;
+    row-gap: 3vmax;
+    justify-content: center;
 }
 
 .dec1 {
@@ -275,7 +298,7 @@ p2 {
 .dec3 {
     width: 5vw;
     rotate: 15deg;
-    margin-top: 60vh;
+    margin-top: 80vh;
     margin-left: 35vh;
     /* float: right; */
 }
@@ -285,7 +308,7 @@ p2 {
     border: #420772d5;
     border-radius: 30px;
     background-color: #420772d5;
-    color: #727594;
+    color: #9393d0;
     height: 5vmin;
     width: 10vmax;
     font-size: 1vmax;
@@ -310,7 +333,7 @@ p2 {
 .sidebar-button {
     background-color: #420772d5;
     padding-left: 2vmax;
-    color: #727594;
+    color: #9393d0;
     height: 7vmin;
     width: 25vmax;
     border-radius: 30px;

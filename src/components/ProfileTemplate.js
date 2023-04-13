@@ -4,7 +4,6 @@ import dec1 from '../assets/img/programming.png';
 import dec2 from '../assets/img/codebreak.svg'; 
 import dec3 from '../assets/img/code.png';
 import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom';
 
 export function ProfileTemplate() {
     const navigate = useNavigate();
@@ -23,6 +22,8 @@ export function ProfileTemplate() {
                             <div ><button className="profil-button" onClick={() => navigate('./ContentTugas2')}>File Management</button></div>
                             <br></br>
                             <div ><button className="profil-button" onClick={() => navigate('./ContentTugas4')}>Process & Threads</button></div>
+                            <br/>
+                            <div ><button className="profil-button" onClick={() => navigate('./ContentTugas7')}>Konkurensi</button></div>
                     </div>
                     <img src={dec1} className="dec1" alt='dec1'/>
                     <img src={dec2} className="dec2" alt='dec2'/>

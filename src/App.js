@@ -5,6 +5,7 @@ import ContentUbuntu from './Page/ContentUbuntu';
 import Profile from './Page/Profile';
 import ContentTugas2 from './Page/ContentTugas2';
 import ContentTugas4 from './Page/ContentTugas4';
+import ContentTugas7 from './Page/ContentTugas7';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/ContentUbuntu" element={<ContentUbuntu />} />
           <Route path="/ContentTugas2" element={<ContentTugas2 />} />
           <Route path="/ContentTugas4" element={<ContentTugas4 />} />
+          <Route path="/ContentTugas7" element={<ContentTugas7 />} />
         </Routes>
       </BrowserRouter>
   );
