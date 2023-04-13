@@ -23,7 +23,7 @@ export function ProfileTemplate() {
                             <br></br>
                             <div ><button className="profil-button" onClick={() => navigate('./ContentTugas4')}>Process & Threads</button></div>
                             <br/>
-                            <div ><button className="profil-button" onClick={() => navigate('./ContentTugas7')}>Konkurensi</button></div>
+                            <div ><button className="profil-button" onClick={() => navigate('./ContentTugas7')}>Concurrency</button></div>
                     </div>
                     <img src={dec1} className="dec1" alt='dec1'/>
                     <img src={dec2} className="dec2" alt='dec2'/>
